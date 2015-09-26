@@ -10,6 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
         <LinearLayout
             android:id="@+id/chat_controls"
             android:layout_width="match_parent"
@@ -33,7 +39,11 @@
             <Button
                 android:id="@+id/btn_send"
                 android:text="@string/sent_message"
-                style="@style/Widget.Button.Custom" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                />
 
         </LinearLayout>
 

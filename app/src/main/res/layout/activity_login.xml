@@ -26,6 +26,7 @@
 
         <EditText
             android:id="@+id/edit_txt_mail"
+            android:inputType="textEmailAddress"
             style="@style/Widget.EditText.Custom"
             android:layout_marginBottom="@dimen/padding_login_middle"
             android:hint="@string/hint_mail" />
