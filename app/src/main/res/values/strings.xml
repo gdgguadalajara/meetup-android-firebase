@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">GDGuadalajara-Firebase</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hola</string>
     <string name="action_settings">Settings</string>
+    <string name="login_btn_text">Ingresar</string>
+    <string name="hint_mail">Tu correo</string>
+    <string name="hint_password">contraseña</string>
+    <string name="login_progress_dialog">Iniciando sesión...</string>
+    <string name="welcome">Bienvenido! </string>
+    <string name="sent_message">Enviar un mensaje</string>
 </resources>
