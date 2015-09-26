@@ -1,4 +1,4 @@
-package org.gdgguadalajara.firebase;
+package org.gdgguadalajara.firebase.UI.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,19 +7,14 @@ import android.view.MenuItem;
 
 import com.firebase.client.Firebase;
 
-public class MainActivity extends AppCompatActivity {
+import org.gdgguadalajara.firebase.R;
 
-    Firebase myFirebaseRef;
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Firebase.setAndroidContext(this);
         setContentView(R.layout.activity_main);
-
-        myFirebaseRef = new Firebase("https://gdgguadalajara.firebaseio.com/");
-
-        myFirebaseRef.child("message").setValue("Do you have data? You'll love Firebase.");
     }
 
 

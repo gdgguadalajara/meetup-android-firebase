@@ -8,4 +8,5 @@
     <string name="login_progress_dialog">Iniciando sesión...</string>
     <string name="welcome">Bienvenido! </string>
     <string name="sent_message">Enviar un mensaje</string>
+    <string name="review_credentials">Revisa tus credenciales porfavor</string>
 </resources>
