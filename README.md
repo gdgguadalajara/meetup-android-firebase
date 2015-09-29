@@ -36,6 +36,9 @@ Luis Alberto Guevara Mendoza
 GDG Guadalajara
 </a>
 
+## Presentacion
+<a href="https://docs.google.com/presentation/d/1LIDXHhwS33kyW_zyqir-qDR70ENKAx6D1vRX2JAF7sA/edit?usp=sharing">Slide</a>
+
 
 
 
